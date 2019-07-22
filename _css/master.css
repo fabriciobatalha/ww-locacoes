@@ -1,289 +1,234 @@
-/* General Settings */
-
-body
-{
-	font-family: 'Cabin', sans-serif;
-	position: absolute;
-}
-
-.no-resize
-{
-	resize: none;
-}
-
-/* Título Seção e Título Subseção */
-
-h1, h2
-{
-	color: #17a2b8;
-	font-family: 'Cabin Condensed', sans-serif;
-}
-
-h1:after
-{
-    content: "";
-    display: block;
-    width: 100px;
-    height: 5px;
-	border-radius: 5px;
-    background-color: #17a2b8;
-    margin: 15px 0 12px 0;
-    margin-left: calc(50% - 50px);
-}
-
-h2:after
-{
-	content: "";
-    display: block;
-    width: 70px;
-    height: 3px;
-	border-radius: 5px;
-    background-color: #17a2b8;
-    margin: 5px 0 12px 0;
-    margin-left: calc(50% - 35px);
-}
-
-/* Top */
-
-#top
-{
-	height: 50px;
-}
-
-#top img
-{
-	width: 30px;
-	height: 30px;
-}
-
-#top-socialnetwork, #top-phone, #top-email, #top-dashboard
-{
-	font-size: 12px;
-	margin-top: 10px;
-}
-
-#top-socialnetwork a
-{
-	text-decoration: none;
-}
-
-/* Navbar */
-
-.navbar
-{
-	min-height: 100px;
-	background-color: #ffffff;
-	box-shadow: 0px 0px 5px #999;
-	font-family: 'Cabin Condensed', sans-serif;
-}
-
-.navbar img
-{
-	width: 100px;
-}
-
-.navbar .navbar-nav .nav-link
-{
-	color: #17a2b8;
-}
-
-/* Who We Are */
-
-#whoweare p
-{
-	color: #696969;
-	line-height: 25px;
-}
-
-/* Services */
-
-#services img 
-{
-	width: 50px;
-	height: 50px;
-}
-
-#services .title, #services .description
-{
-	color: #696969;
-}
-
-#services .title
-{
-	font-size: 16px;
-	font-weight: bold;
-}
-
-#services .description
-{
-	font-size: 13px;
-	line-height: 25px;
-}
-
-/* Gallery */
-
-#gallery img
-{
-	height: 180px;
-	transition: 1s;
-	object-fit: cover;
-	/* filter: grayscale(100%); */
-}
-
-#gallery img:hover
-{
-	cursor: pointer;
-	/* filter: grayscale(0); */
-	transform: scale(1.1);
-}
-
-#gallery p
-{
-	font-size: 20px;
-	color: #17a2b8;
-}
-
-#gallery p:after
-{
-    content: "";
-    display: block;
-    width: 50px;
-    height: 3px;
-	border-radius: 5px;
-    background-color: #17a2b8;
-    margin: 5px 0px 0px 0px;
-}
-
-/* DNA */
-
-#dna img 
-{
-	width: 50px;
-	height: 50px;
-}
-
-#dna .title, #dna .description
-{
-	color: #696969;
-}
-
-#dna .title
-{
-	font-size: 16px;
-	font-weight: bold;
-}
-
-#dna .description
-{
-	font-size: 13px;
-	line-height: 25px;
-}
-
-/* News */
-
-.card img
-{
-	height: 200px;
-	object-fit: cover;
-}
-
-.modal-cover
-{
-	height: 250px;
-	object-fit: cover;
-}
-
-#news .title, #news .description, #news .news
-{
-	color: #696969;
-}
-
-#news .title
-{
-	font-size: 16px;
-	font-weight: bold;
-}
-
-#news .description
-{
-	font-size: 14px;
-	line-height: 25px;
-}
-
-#news .news
-{
-	font-size: 16px;
-	line-height: 25px;
-}
-
-/* WhatsApp */
-
-#whatsapp
-{
-	background-color: #075e54;
-}
-
-#whatsapp img 
-{
-	width: 55px;
-	height: 55px;
-}
-
-/* Partners */
-
-#partners img
-{
-	width: 150px;
-	opacity: 0.7;
-}
-
-#partners img:hover
-{
-	opacity: 1;
-}
-
-/* FAQ */
-
-#faq .btn:focus, .#faq .btn:active
-{
-   box-shadow: none;
-   outline: none !important;
-}
-
-#faq .description
-{
-	color: #696969;
-}
-
-/* Footer */
-
-footer
-{
-	background-color: #17a2b8;
-}
-
-footer img 
-{
-	width: 50px;
-	height: 50px;
-}
-
-footer p, footer a
-{
-	font-size: 13px;
-}
-
-/* Responsible Settings */
-
-@media screen and (max-width: 767px)
-{	
-	#gallery img
-	{
-		height: 125px;
-	}
-	
-	.modal-cover
-	{
-		height: 150px;
-	}
+/* General Settings */
+body {
+	font-family: 'Cabin', sans-serif;
+	position: absolute;
+}
+
+.no-resize {
+	resize: none;
+}
+
+/* Título Seção e Título Subseção */
+h1, h2 {
+	color: #17a2b8;
+	font-family: 'Cabin Condensed', sans-serif;
+}
+
+h1:after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 5px;
+	border-radius: 5px;
+    background-color: #17a2b8;
+    margin: 15px 0 12px 0;
+    margin-left: calc(50% - 50px);
+}
+
+h2:after {
+	content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+	border-radius: 5px;
+    background-color: #17a2b8;
+    margin: 5px 0 12px 0;
+    margin-left: calc(50% - 35px);
+}
+
+/* Top */
+#top {
+	height: 50px;
+}
+
+#top img {
+	width: 30px;
+	height: 30px;
+}
+
+#top-socialnetwork, #top-phone, #top-email, #top-dashboard {
+	font-size: 12px;
+	margin-top: 10px;
+}
+
+#top-socialnetwork a {
+	text-decoration: none;
+}
+
+/* Navbar */
+.navbar {
+	min-height: 100px;
+	background-color: #ffffff;
+	box-shadow: 0px 0px 5px #999;
+	font-family: 'Cabin Condensed', sans-serif;
+}
+
+.navbar img {
+	width: 100px;
+}
+
+.navbar .navbar-nav .nav-link {
+	color: #17a2b8;
+}
+
+/* Who We Are */
+#whoweare p {
+	color: #696969;
+	line-height: 25px;
+}
+
+/* Services */
+#services img {
+	width: 80%;
+	height: 200px;
+	object-fit: cover;
+	border-radius: 5px;
+}
+
+#services .title, #services .description {
+	color: #696969;
+}
+
+#services .title {
+	font-size: 17px;
+	font-weight: bold;
+}
+
+#services .description {
+	font-size: 13px;
+	line-height: 25px;
+}
+
+/* Gallery */
+#gallery img {
+	height: 180px;
+	transition: 1s;
+	object-fit: cover;
+	/* filter: grayscale(100%); */
+}
+
+#gallery img:hover {
+	cursor: pointer;
+	/* filter: grayscale(0); */
+	transform: scale(1.1);
+}
+
+#gallery p {
+	font-size: 20px;
+	color: #17a2b8;
+}
+
+#gallery p:after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+	border-radius: 5px;
+    background-color: #17a2b8;
+    margin: 5px 0px 0px 0px;
+}
+
+/* DNA */
+#dna img {
+	width: 50px;
+	height: 50px;
+}
+
+#dna .title, #dna .description {
+	color: #696969;
+}
+
+#dna .title {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#dna .description {
+	font-size: 13px;
+	line-height: 25px;
+}
+
+/* News */
+.card img {
+	height: 200px;
+	object-fit: cover;
+}
+
+.modal-cover {
+	height: 250px;
+	object-fit: cover;
+}
+
+#news .title, #news .description, #news .news {
+	color: #696969;
+}
+
+#news .title {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#news .description {
+	font-size: 14px;
+	line-height: 25px;
+}
+
+#news .news {
+	font-size: 16px;
+	line-height: 25px;
+}
+
+/* WhatsApp */
+#whatsapp {
+	background-color: #075e54;
+}
+
+#whatsapp img {
+	width: 55px;
+	height: 55px;
+}
+
+/* Partners */
+#partners img {
+	width: 150px;
+	opacity: 0.7;
+}
+
+#partners img:hover {
+	opacity: 1;
+}
+
+/* FAQ */
+#faq .btn:focus, #faq .btn:active {
+   box-shadow: none;
+   outline: none !important;
+}
+
+#faq .description {
+	color: #696969;
+}
+
+/* Footer */
+footer {
+	background-color: #17a2b8;
+}
+
+footer img {
+	width: 50px;
+	height: 50px;
+}
+
+footer p, footer a {
+	font-size: 13px;
+}
+
+/* Responsible Settings */
+@media screen and (max-width: 767px) {	
+	#gallery img {
+		height: 125px;
+	}
+	
+	.modal-cover {
+		height: 150px;
+	}
 }
