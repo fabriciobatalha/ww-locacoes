@@ -269,13 +269,13 @@
 
 					if($countCategoryThree > 0) {
 ?>
-						<p class="col-12"> Caminhões Munks </p>
+						<p class="col-12"> Caminhões Muncks </p>
 <?php
-						foreach($queryCategoryTwo as $resultCategoryTwo)
+						foreach($queryCategoryThree as $resultCategoryThree)
 						{				
 ?>	
-							<a href="dashboard/gallery/photos/<?php echo $resultCategoryTwo['photo']; ?>" class="col-6 col-md-3 mb-4" data-lightbox="mygallery" data-title="<?php echo $resultCategoryTwo['photo']; ?>">
-								<img class="w-100" src="dashboard/gallery/photos/<?php echo $resultCategoryTwo['photo']; ?>" alt="Foto WW Locações"> 
+							<a href="dashboard/gallery/photos/<?php echo $resultCategoryThree['photo']; ?>" class="col-6 col-md-3 mb-4" data-lightbox="mygallery" data-title="<?php echo $resultCategoryThree['photo']; ?>">
+								<img class="w-100" src="dashboard/gallery/photos/<?php echo $resultCategoryThree['photo']; ?>" alt="Foto WW Locações"> 
 							</a>
 <?php
 						}
@@ -326,7 +326,7 @@
 ?>
 						<p class="col-12"> Outros </p>
 <?php
-						foreach($queryCategoryFive as $resultCategorySeven)
+						foreach($queryCategorySeven as $resultCategorySeven)
 						{				
 ?>	
 							<a href="dashboard/gallery/photos/<?php echo $resultCategorySeven['photo']; ?>" class="col-6 col-md-3 mb-4" data-lightbox="mygallery" data-title="<?php echo $resultCategorySeven['photo']; ?>">
